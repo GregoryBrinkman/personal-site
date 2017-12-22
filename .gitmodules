@@ -1,0 +1,3 @@
+[submodule "public/life-tracker"]
+	path = public/life-tracker
+	url = https://github.com/GregoryBrinkman/life-tracker
