@@ -1,0 +1,56 @@
+:root {
+--color1:#c4d6b0;
+--color2:#fe621d;
+--color3:#0ad3ff;
+--color4:#477998;
+--color5:#291f1e;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  display: grid;
+}
+
+nav {
+  text-align: center;
+  background-color: var(--color4);
+  height: 8vh;
+  z-index: 1;
+  -webkit-box-shadow: 0 2px 2px black;
+  -moz-box-shadow: 0 2px 2px black;
+  box-shadow: 0 2px 2px black;
+}
+nav h3 {
+  color: white;
+
+}
+section {
+  text-align: center;
+  min-height: 100vh;
+  background-color: var(--color2);
+}
+header {
+  text-align: center;
+  min-height: 100vh;
+  background-color: var(--color3);
+}
+.header-lead {
+}
+.header-byline {
+}
+#projects {
+}
+.project-lead {
+}
+.project-byline {
+}
+#contact {
+}
+.contact-lead {
+}
+.contact-byline {
+}
+footer {
+  text-align: center;
+  background-color: var(--color4);
+}
