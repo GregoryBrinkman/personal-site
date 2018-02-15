@@ -1,53 +1,14 @@
 :root {
---color1:#c4d6b0;
---color2:#fe621d;
---color3:#0ad3ff;
---color4:#477998;
---color5:#291f1e;
+--white:#ffffff;
+--gray:#b4b8ab;
+--purple:#542344;
+--blue:#bfd1e5;
 }
 body, html {
   height: 100%;
   margin: 0;
   display: grid;
 }
-
-nav {
-  text-align: center;
-  background-color: var(--color4);
-  height: 8vh;
-  width: 100%;
-  z-index: 1;
-  position: fixed;
-  -webkit-box-shadow: 0 2px 2px black;
-  -moz-box-shadow: 0 2px 2px black;
-  box-shadow: 0 2px 2px black;
-}
-nav h3 {
-  color: white;
-}
-header {
-  text-align: center;
-  margin-top: 8vh;
-  min-height: 92vh;
-  background-color: var(--color3);
-}
-.nav-fix{
-  display: block;
-  margin-top: -8vh;
-  height: 8vh;
-  visibility: hidden;
-}
 section {
   text-align: center;
-  min-height: 92vh;
-}
-footer {
-  text-align: center;
-  background-color: var(--color4);
-}
-.contact {
-  background-color: var(--color2);
-}
-.projects {
-  background-color: var(--color1);
 }
