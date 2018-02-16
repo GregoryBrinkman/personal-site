@@ -1,4 +1,17 @@
-.contact {
-  min-height: 92vh;
+#contact {
+  height: 95vh;
   background-color: var(--blue);
+}
+
+.contact-lead {
+  padding-top: 5vh;
+}
+
+#contact > p {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.contact-email {
+  font-weight: bold;
 }
