@@ -1,4 +1,25 @@
-.projects {
+#projects {
   min-height: 100vh;
   background-color: var(--white);
 }
+
+.project-lead {
+  padding-top: 5vh;
+}
+
+.project {
+  padding: 10vw;
+}
+
+.project:nth-child(even) {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.project:nth-child(odd) {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+

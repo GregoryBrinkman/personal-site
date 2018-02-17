@@ -22,7 +22,6 @@ header {
 .header-byline {
   text-align: center;
   color: white;
-  font-weight: bold;
   grid-area: byline;
 }
 .header-websites {
@@ -30,8 +29,19 @@ header {
   color: white;
   grid-area: links;
 }
+
+
+i {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+}
 .header-arrow {
-  text-align: center;
-  color: white;
+  margin: -5vw auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   grid-area: arrow;
 }
