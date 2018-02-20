@@ -1,7 +1,7 @@
 footer {
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
   height: 5vh;
   background-color: var(--gray);
 }

@@ -1,5 +1,7 @@
 #contact {
-  height: 95vh;
+  z-index: 1;
+  box-shadow: 0 0 4px black;
+  min-height: 95vh;
   background-color: var(--blue);
 }
 
