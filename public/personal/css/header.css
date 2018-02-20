@@ -30,6 +30,12 @@ header {
   grid-area: links;
 }
 
+.site-img {
+  padding-right: 3vw;
+  padding-left: 3vw;
+  max-width: 25vw;
+  height: auto;
+}
 
 i {
   box-sizing: border-box;
