@@ -8,24 +8,36 @@
 }
 
 .project {
-  border: 1px black solid;
   padding: 15vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "description highlights";
 }
 
 .project:nth-child(odd) {
-  flex-direction: row-reverse;
+  grid-template-areas: "highlights description";
+}
+
+.project-highlights {
+  grid-area: highlights;
+}
+
+.project-description {
+  grid-area: description;
 }
 
 @media only screen and (max-width: 500px) {
   .project {
-    padding-top: 40vw;
-    padding-bottom: 40vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "highlights"
+                         "description";
   }
+
+.project:nth-child(odd) {
+  grid-template-areas: "highlights"
+                       "description";
+}
+
 }
