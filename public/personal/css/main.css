@@ -3,12 +3,20 @@
 --gray:#b4b8ab;
 --purple:#542344;
 --blue:#bfd1e5;
+--red:#db2763;
 }
 body, html {
   height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
   margin: 0;
   display: grid;
 }
 section {
   text-align: center;
+}
+
+p {
+  font-size: 110%;
 }

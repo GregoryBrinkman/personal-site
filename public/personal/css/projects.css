@@ -4,7 +4,7 @@
 }
 
 .project-lead {
-  padding-top: 5vh;
+  padding-top: 10vh;
 }
 
 .project {
@@ -20,6 +20,7 @@
 }
 
 .project-highlights {
+  padding: 5vw;
   grid-area: highlights;
 }
 
@@ -28,17 +29,26 @@
   grid-area: description;
 }
 
+.active-wrapper {
+  padding-bottom: 20px;
+}
+
+.active-development {
+  color: white;
+  padding: 5px;
+  background-color: var(--red);
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .project {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr;
     grid-template-areas: "highlights"
-                         "description";
+    "description";
   }
 
-.project:nth-child(odd) {
-  grid-template-areas: "highlights"
-                       "description";
-}
-
+  .project:nth-child(odd) {
+    grid-template-areas: "highlights"
+    "description";
+  }
 }

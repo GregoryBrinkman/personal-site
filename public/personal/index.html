@@ -31,20 +31,22 @@
           <img class="site-img" src="/assets/LinkedIn.png" alt="LinkedIn Logo"  />
         </a>
       </div>
-      <i class="header-arrow"></i>
+      <i onclick="projects()" class="header-arrow"></i>
     </header>
 
     <section id="projects">
-      <h4 class="project-lead">Project Portfolio</h4>
+      <h3 class="project-lead">Project Portfolio</h3>
 
       <div class="project">
         <div class="project-description">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum nibh vel viverra accumsan. Nullam id elit aliquam, convallis justo id, auctor ligula. Vivamus sit amet libero ultricies, ullamcorper mi sed, egestas est. Sed congue magna eu ante scelerisque, sed faucibus metus rhoncus. Nunc nec leo in nulla fermentum consequat. Donec vel faucibus nunc. Maecenas in tempor sapien. Donec pulvinar, ex ac blandit mattis, est ipsum bibendum mi, et vulputate nisl orci nec arcu. Ut consequat mauris ac urna varius ultricies. Nullam et leo eleifend est sagittis cursus mattis sed odio. Pellentesque fermentum feugiat augue non vehicula. Vestibulum eu massa sem. description</div>
+          <p>
+            Chess Bored is a web application is designed to teach how each chess piece moves. It features a responsive, mobile-friendly layout with CSS grid and single-page routing with the Angular framework. Chess Bored is meant to improve chess literacy, especially in children. This web application was created so I could share my love of chess with my nieces and nephews.
+          </p>
         </div>
         <div class="project-highlights">
-          <h5 class="project-name">Chess Bored</h5>
+          <h4 class="project-name">Chess Bored</h4>
           <div class="technologies">
-            Written with: Angular
+            Written with: Angular, Javascript, CSS3, HTML5
           </div>
           <p><a href="https://github.com/GregoryBrinkman/learn-chess">See the code.</a></p>
         </div>
@@ -52,12 +54,17 @@
 
       <div class="project">
         <div class="project-description">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum nibh vel viverra accumsan. Nullam id elit aliquam, convallis justo id, auctor ligula. Vivamus sit amet libero ultricies, ullamcorper mi sed, egestas est. Sed congue magna eu ante scelerisque, sed faucibus metus rhoncus. Nunc nec leo in nulla fermentum consequat. Donec vel faucibus nunc. Maecenas in tempor sapien. Donec pulvinar, ex ac blandit mattis, est ipsum bibendum mi, et vulputate nisl orci nec arcu. Ut consequat mauris ac urna varius ultricies. Nullam et leo eleifend est sagittis cursus mattis sed odio. Pellentesque fermentum feugiat augue non vehicula. Vestibulum eu massa sem. description</div>
+          <p>
+            Life Tracker is a web application meant to track personal life goals. Life Tracker currently includes weight tracking, calorie tracking, and a calendar to track a user daily actions. Data visualization graphs, made with chart.js, show how a user's progress on their goals over time. It features a responsive, mobile-friendly layout with CSS grid, a Firebase database for users to track their progress, and single-page routing with the Angular framework.
+          </p>
         </div>
         <div class="project-highlights">
-          <h5 class="project-name">Life Tracker</h5>
+          <h4 class="project-name">Life Tracker</h4>
+          <div class="active-wrapper">
+            <span class="active-development">Life Tracker is still in active development.</span>
+          </div>
           <div class="technologies">
-            Written with: Angular
+            Written with: Angular, Javascript, CSS3, HTML5, Chart.js
           </div>
           <p><a href="https://github.com/GregoryBrinkman/life-tracker">See the code.</a></p>
 
@@ -66,10 +73,12 @@
 
       <div class="project">
         <div class="project-description">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum nibh vel viverra accumsan. Nullam id elit aliquam, convallis justo id, auctor ligula. Vivamus sit amet libero ultricies, ullamcorper mi sed, egestas est. Sed congue magna eu ante scelerisque, sed faucibus metus rhoncus. Nunc nec leo in nulla fermentum consequat. Donec vel faucibus nunc. Maecenas in tempor sapien. Donec pulvinar, ex ac blandit mattis, est ipsum bibendum mi, et vulputate nisl orci nec arcu. Ut consequat mauris ac urna varius ultricies. Nullam et leo eleifend est sagittis cursus mattis sed odio. Pellentesque fermentum feugiat augue non vehicula. Vestibulum eu massa sem. description</div>
+          <p>
+            This project emulates a BASH terminal session on a remote server. This project has a client server architecture, including networking sockets, a thread pool dealing with integers, and UNIX timers to handle malicious clients. All I/O operations are handled by an epoll loop, which waits for commands from the client, then relays the client's commands to a pseudo-terminal on the server. Once the commands are run on the server, the output is relayed back to the client.
+          </p>
         </div>
         <div class="project-highlights">
-          <h5 class="project-name">Remote Terminal Emulator</h5>
+          <h4 class="project-name">Remote Terminal Emulator</h4>
           <div class="technologies">
             Written with: C
           </div>
@@ -79,12 +88,14 @@
 
       <div class="project">
         <div class="project-description">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum nibh vel viverra accumsan. Nullam id elit aliquam, convallis justo id, auctor ligula. Vivamus sit amet libero ultricies, ullamcorper mi sed, egestas est. Sed congue magna eu ante scelerisque, sed faucibus metus rhoncus. Nunc nec leo in nulla fermentum consequat. Donec vel faucibus nunc. Maecenas in tempor sapien. Donec pulvinar, ex ac blandit mattis, est ipsum bibendum mi, et vulputate nisl orci nec arcu. Ut consequat mauris ac urna varius ultricies. Nullam et leo eleifend est sagittis cursus mattis sed odio. Pellentesque fermentum feugiat augue non vehicula. Vestibulum eu massa sem. description</div>
+          <p>
+            This project was intended for management of a record shop, providing administrator tools for a database of records. A responsive User Interface, designed with bootstrap, allows the system admin basic C.R.U.D. functions, such as creating new records, searching through the record catalogue, updating records, and deleting records. This project also features a Django webserver and relies on Django HTML templates for listing record data.
+          </p>
         </div>
         <div class="project-highlights">
-          <h5 class="project-name">Record label Admin Panel</h5>
+          <h4 class="project-name">Record label Admin Panel</h4>
           <div class="technologies">
-            Written with: Django
+            Written with: Django, Python, HTML5, CSS3, Bootstrap
           </div>
           <p><a href="https://github.com/GregoryBrinkman/djangoDatabaseWebsite">See the code.</a></p>
         </div>
@@ -92,10 +103,12 @@
 
       <div class="project">
         <div class="project-description">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum nibh vel viverra accumsan. Nullam id elit aliquam, convallis justo id, auctor ligula. Vivamus sit amet libero ultricies, ullamcorper mi sed, egestas est. Sed congue magna eu ante scelerisque, sed faucibus metus rhoncus. Nunc nec leo in nulla fermentum consequat. Donec vel faucibus nunc. Maecenas in tempor sapien. Donec pulvinar, ex ac blandit mattis, est ipsum bibendum mi, et vulputate nisl orci nec arcu. Ut consequat mauris ac urna varius ultricies. Nullam et leo eleifend est sagittis cursus mattis sed odio. Pellentesque fermentum feugiat augue non vehicula. Vestibulum eu massa sem. description</div>
+          <p>
+            This project is provides a simple web browser, which sends all its URL requests via java socket to be handled by a remote server which returns raw HTML to the broswer. This functions similarly to a VPN by routing all URL to a remote server. The HTML returned to the client is displayed inside a WebView object from the JavaFX library.
+          </p>
         </div>
         <div class="project-highlights">
-          <h5 class="project-name">VPN Web Browser</h5>
+          <h4 class="project-name">VPN Web Browser</h4>
           <div class="technologies">
             Written with: Java, JavaFX
           </div>
@@ -106,9 +119,9 @@
     </section>
 
     <section id="contact">
-      <h4 class="contact-lead">Need a Developer??<br>Like what you see??<br>Hire me!</h4>
+      <h4 class="contact-lead">Need a Developer?<br>Like what you see?<br>Hire me!</h4>
       <p class="contact-byline">
-      Gregory is looking for work and wants to hear from you! Following his graduation this coming May, Greg will be available to work full time. Greg is dedicated to see a project from its opening stages to completition, commits to producing production-quality code, and is looking for small-to-medium sized companies, where he can contribute to projects in meaningful ways. You can see his resume <a href="/assets/Resume.pdf">here</a> and reach him at <span class="contact-email">greg(at)gregorybrinkman.com</span>.
+      Gregory is looking for work and wants to hear from you! Following his graduation this coming May, Greg will be available to work full time. Greg is dedicated to see a project from its opening stages to completition, commits to producing production-quality code, and is looking for small-to-medium sized companies, where he can contribute to software in meaningful ways. You can see his resume <a href="/assets/Resume.pdf">here</a> and reach him at <span class="contact-email">greg(at)gregorybrinkman.com</span>.
       </p>
     </section>
 
