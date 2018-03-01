@@ -11,11 +11,19 @@
 
 #contact > p {
   color: white;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 .contact-email {
   color: white;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact > p {
+    color: white;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
 }
