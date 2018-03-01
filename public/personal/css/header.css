@@ -45,6 +45,7 @@ i {
   border-style: solid;
   border-color: white;
   border-width: 0px 1px 1px 0px;
+  cursor: pointer;
 }
 
 .header-arrow {
@@ -52,4 +53,13 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   grid-area: arrow;
+}
+.header-arrow:hover {
+  border-width: 0px 2px 2px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2em;
+  }
 }
