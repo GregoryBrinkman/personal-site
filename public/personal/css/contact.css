@@ -1,19 +1,21 @@
 #contact {
   z-index: 1;
-  box-shadow: 0 0 4px black;
   min-height: 95vh;
-  background-color: var(--blue);
+  background-color: var(--purple);
 }
 
 .contact-lead {
+  color: white;
   padding-top: 5vh;
 }
 
 #contact > p {
+  color: white;
   padding-left: 5vw;
   padding-right: 5vw;
 }
 
 .contact-email {
+  color: white;
   font-weight: bold;
 }
