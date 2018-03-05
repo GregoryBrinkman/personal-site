@@ -1,3 +1,6 @@
 [submodule "public/life-tracker"]
 	path = public/life-tracker
 	url = https://github.com/GregoryBrinkman/life-tracker
+[submodule "public/presentations/reveal.js"]
+	path = public/presentations/reveal.js
+	url = https://github.com/hakimel/reveal.js
