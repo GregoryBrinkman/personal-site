@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
