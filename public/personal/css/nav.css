@@ -14,5 +14,16 @@ nav a {
   cursor: pointer;
   text-align: center;
   padding: 10px;
-  text-decoration: none;
+  text-decoration: line-through;
+}
+
+nav p {
+  color: white;
+  animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
