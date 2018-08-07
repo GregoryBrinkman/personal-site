@@ -3,8 +3,7 @@ makeCopyrightDate();
 
 //functions
 function makeCopyrightDate() {
-  let el = document.querySelector('#cr-date');
-  el.innerHTML = (new Date()).getFullYear();
+  document.querySelector('#cr-date').innerHTML = (new Date()).getFullYear();
 }
 
 function projects() {
