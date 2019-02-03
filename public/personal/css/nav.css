@@ -3,6 +3,7 @@ nav {
   justify-content: center;
   overflow: hidden;
   top: 0;
+  height: 6vh;
   width: 100%;
   background-color: #333;
 }
