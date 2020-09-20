@@ -1,0 +1,40 @@
+:root {
+--white:#ffffff;
+--gray:#b4b8ab;
+--purple:#542344;
+--blue:#bfd1e5;
+--red:#db2763;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
+  margin: 0;
+  display: grid;
+}
+section {
+  text-align: center;
+}
+
+p {
+  font-size: 110%;
+}
+
+#idleOutlet {
+  height: 80vh;
+  width: 100%;
+}
+
+.idle-container {
+  height: 120px;
+  border-radius: 3px;
+  background-color: #d3d3d3;
+  width: 40%;
+  margin: 5%;
+}
+
+.bar {
+  background-color: #4CAF50;
+  width: 100%;
+}
